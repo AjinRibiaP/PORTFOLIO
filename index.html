@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ORIGINAL</title>
+    <style>
+      
+      a {
+          text-decoration: none;
+      }
+      
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      
+      nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+
+      .nav__content {
+        max-width: 1200px;
+        margin: auto;
+        padding: 1.5rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      
+      nav .logo a {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #a855f7;
+        transition: 0.3s;
+      }
+      nav .logo a:hover {
+        color: #9333ea;
+      }
+      
+      nav .checkbox {
+        display: none;
+      }
+      
+      nav input {
+        display: none;
+      }
+      nav .checkbox i {
+        font-size: 2rem;
+        color: #a855f7;
+        cursor: pointer;
+      }
+      
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        transition: left 0.3s;
+      }
+      
+      ul li a {
+        padding: 0.5rem 1rem;
+        border: 2px solid transparent;
+        text-decoration: none;
+        font-weight: 600;
+        color: #1f2937;
+        transition: 0.3s;
+      }
+      
+      ul li a:hover {
+        border-top-color: #9333ea;
+        border-bottom-color: #9333ea;
+        color: #9333ea;
+      }
+      
+      .section {
+        background-color: #faf5ff;
+
+      }
+
+
+
+      .circle-container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .circle {
+        display: inline-block;
+        width: 2cm;
+        height: 2cm;
+        border-radius: 2%;
+        background-color: #007bff;
+        margin: 0 10px;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+      
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#"><i>Ajin Ribia</i></a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+
+
+
+          <li><a href="#">About</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#container">Certifications</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+      </div>
+    </nav>
+    <br><br>
+    <section class="section">
+      <br><br>
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">Hi!</p>
+          <h1 class="title">
+            I am <b style="color:#9333ea;">Ajin Ribia<br></b>a Web Developer
+          </h1>
+          <p class="description">
+            Greetings! I'm thrilled to welcome you to my corner of the web. 
+            I'm Ajin , an adept web developer driven by a fervent enthusiasm for crafting captivating digital 
+            experiences. With a penchant for marrying aesthetics with functionality,
+            I specialize in the art of building visually stunning, seamlessly responsive,
+            and intuitively navigable websites. 
+          </p>
+          <div class="action__btns">
+            <button class="readmore">Read more</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="prof.png" alt="profile">
+        </div>
+      </div>
+    </section>
+   
+
+
+<!--CERTIFICATIONNNNNNNNNNS-->    
+<b><center style="font-size: 1cm; color:#9333ea;">Certifications</center><br><br></b>
+<div class="container" id="container">
+  <div class="box" id="container">
+    <img src="cer1.png" alt="Image 1">
+    <p>ABC certification</p>
+  </div>
+  <div class="box">
+    <img src="cer2.png" alt="Image 2">
+    <p>XYZ certification</p>
+  </div>
+  <div class="box">
+    <img src="cer3.png" alt="Image 2">
+    <p>PQR certification</p>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<b><center style="font-size: 1cm; color:#9333ea;">Languages known</center><br><br></b>
+<div class="container" id="container" style="display: flex; flex-wrap: wrap;">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <div class="box" style="width: 300px; height: 100px; background-color: white; margin: 10px; border: 1px solid black; border-radius: 5px; box-shadow: 5px 5px 10px #9333ea;">
+    <p>C++</p>
+  </div>
+  <div class="box" style="width: 300px; height: 100px; background-color: white; margin: 10px; border: 1px solid black; border-radius: 5px; box-shadow: 5px 5px 10px #9333ea;">
+    <p>Java</p>
+  </div>
+  <div class="box" style="width: 300px; height: 100px; background-color: white; margin: 10px; border: 1px solid black; border-radius: 5px; box-shadow: 5px 5px 10px #9333ea;">
+    <p>MySQL</p>
+  </div>
+  <br>
+  <div class="box" style="width: 300px; height: 100px; background-color: white; margin: 10px; border: 1px solid black; border-radius: 5px; box-shadow: 5px 5px 10px #9333ea;">
+    <p>C</p>
+  </div>
+  
+</div>
+
+<br>
+<br>
+<br>
+<!--PROJECTS-->
+<b><center style="font-size: 1cm; color:#9333ea;">Projects</center><br><br></b>
+   
+<div class="container" id="container">
+  <div class="box" id="container">
+    
+    <p><B>Landing page</B></p>
+    <img src="image.png" alt="Image 1">
+    <P>A landing page is a single web page that promotes one or more goods and services while directing site visitors to carry out various actions, such as making a purchase, signing up for a newsletter, etc. You need to combine CSS with HTML to develop even the most basic landing page. 
+    </P>
+  </div>
+  <div class="box">
+    
+    <p><B>Personal Portfolio page</B></p>
+    <img src="image.png" alt="Image 1">
+    <P>The basic information for a work portfolio, such as your name and image, projects, specialised talents, and interests, will be included on the web page you make for this project. If you'd like, you may also host the entire portfolio on GitHub using your GitHub account and include your resume. </P>
+  </div>
+  <div class="box">
+    
+    <p><B>Photography site</B></p>
+    <img src="image.png" alt="Image 1">
+    <P> A responsive one-page photography website is the plan.Include the brand name, logo, and a succinct site description at the top of the landing page. Users can access the images portion of a gallery and slide to view the subsequent photographs by creating a gallery with a view button. You can maintain many viewing configurations, such as a grid, list, etc.</P>
+  </div>
+</div>
+
+
+
+
+
+<!--CONTACT-->
+
+    <section class="contact" id="contact">
+    <div class="contact" id="contact">
+    <div class="circle-container">
+      <b><center style="font-size: 1cm; color:#9333ea;">Contact</center><br><br></b>
+      <a href="#circle1" class="circle"><img src="git.png" style="width:2cm; height:2cm;"></a>
+      <a href="#circle2" class="circle"><img src="gog.png" style="width:2cm; height:2cm;"></a>
+      <a href="#circle3" class="circle"><img src="inst.png" style="width:2cm; height:2cm;"></a>
+      <a href="#circle4" class="circle"><img src="link.png" style="width:2cm; height:2cm;"></a>
+      
+    </div>
+  </div>
+</section>
+  
+
+
+  </body>
+</html>
